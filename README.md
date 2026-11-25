@@ -3,6 +3,14 @@
 基于真实传播机制约束的**传播策略模拟与相对效果评估**平台（Streamlit）。  
 面向政策传播策略对照、机制解读与优化建议；**不是**精确舆情预测系统。
 
+## 在线打开
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=asbaniaworld-ui/PolicyAgent-v4&branch=main&mainModule=app.py)
+
+- **当前演示链接（隧道，本机在线时可用）**：https://grande-findlaw-tank-pickup.trycloudflare.com  
+- **一键部署到 Streamlit Cloud（永久 `*.streamlit.app`）**：[Deploy](https://share.streamlit.io/deploy?repository=asbaniaworld-ui/PolicyAgent-v4&branch=main&mainModule=app.py)  
+  用 GitHub 账号登录 → Deploy → 得到永久网页链接后，可写回本仓库 About / Website。
+
 ## 功能导航
 
 | 模块 | 说明 |
