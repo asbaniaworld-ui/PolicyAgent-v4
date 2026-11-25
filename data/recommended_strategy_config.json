@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "note": "推荐方案写入 session 的配置模板。不自动运行 Simulation。",
+  "template": {
+    "timing_key": "early_14",
+    "chain_key": "gov_media_prof_public",
+    "goal_id": "improve_understanding",
+    "strategy_id": "B_professional_chain",
+    "source": "effect_analysis_page",
+    "auto_run": false
+  },
+  "field_notes": {
+    "timing_key": "real | early_7 | early_14",
+    "chain_key": "gov_public | gov_media_public | gov_media_prof_public | full",
+    "goal_id": "expand_coverage | improve_understanding | faster_diffusion"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "note": "自然语言目标 → 指标 → 问题类型 → 策略。展示/决策层，不改 Agent / Simulation。",
+  "goals": {
+    "understanding_goal": {
+      "label": "理解提升",
+      "keywords": ["理解", "清楚", "知道", "明白", "掌握", "懂", "认知", "了解政策"],
+      "metrics": ["fact_accuracy"],
+      "possible_problem": "understanding_gap",
+      "strategies": ["B_professional_chain", "C_public_response"],
+      "lab_goal_id": "improve_understanding",
+      "description": "提升公众对政策事实的理解程度"
+    },
+    "speed_goal": {
+      "label": "传播速度提升",
+      "keywords": ["更快", "速度", "扩散", "传播快", "尽快", "提前", "效率", "趋稳", "覆盖快"],
+      "metrics": ["diffusion_round", "coverage_pre_burst"],
+      "possible_problem": "timing_gap",
+      "strategies": ["A_early_authority"],
+      "lab_goal_id": "faster_diffusion",
+      "description": "加快政策信息进入与扩散趋稳"
+    },
+    "coverage_goal": {
+      "label": "早期触达提升",
+      "keywords": ["覆盖", "触达", "知道的人", "传播开", "让更多人", "广泛"],
+      "metrics": ["coverage_pre_burst"],
+      "possible_problem": "timing_gap",
+      "strategies": ["A_early_authority", "B_professional_chain"],
+      "lab_goal_id": "expand_coverage",
+      "description": "提高权威信息在爆发前的早期触达"
+    },
+    "misunderstanding_goal": {
+      "label": "问题回应 / 降低误解",
+      "keywords": ["误解", "疑问", "疑虑", "不清楚", "费用", "担心", "回应", "解答", "误读"],
+      "metrics": ["fact_accuracy"],
+      "related_concepts": ["misunderstanding", "question_resolution"],
+      "possible_problem": "understanding_gap",
+      "strategies": ["C_public_response", "B_professional_chain"],
+      "lab_goal_id": "improve_understanding",
+      "description": "减少公众误解与疑问，增强回应"
+    },
+    "synergy_goal": {
+      "label": "主体协同提升",
+      "keywords": ["协同", "多方", "专业", "专家", "分工", "主体"],
+      "metrics": ["actor_diversity", "fact_accuracy"],
+      "possible_problem": "synergy_gap",
+      "strategies": ["B_professional_chain"],
+      "lab_goal_id": "improve_understanding",
+      "description": "完善发布—转译—解释—反馈的协同结构"
+    }
+  },
+  "default_goal": "understanding_goal"
+}

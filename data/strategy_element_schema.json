@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "note": "传播策略核心要素（最高层）。A/B/C 是具体方案，不是最高层概念。不新增模型参数。",
+  "elements": {
+    "intervention_time": {
+      "name": "信息进入时机",
+      "human_explanation": "什么时候让权威信息进入公众认知窗口。",
+      "description": "调整权威解释相对现实时间线的提前量，改变爆发前解释窗口长度。",
+      "metrics": ["coverage_pre_burst", "diffusion_round"],
+      "related_strategies": ["A_early_authority"]
+    },
+    "actor_chain": {
+      "name": "主体协同结构",
+      "human_explanation": "哪些主体承担发布、扩散、解释和反馈功能。",
+      "description": "调整不同传播主体在信息发布、转译、解释和反馈中的功能分工。",
+      "metrics": ["fact_accuracy", "actor_diversity"],
+      "related_strategies": ["B_professional_chain"]
+    },
+    "content_response": {
+      "name": "内容回应机制",
+      "human_explanation": "是否针对公众关注的问题提前提供回应。",
+      "description": "在权威与专业节点提前回应费用、适用条件等公众追问与利益诉求。",
+      "metrics": ["fact_accuracy", "misunderstanding", "question_resolution"],
+      "related_strategies": ["C_public_response"]
+    }
+  },
+  "goal_driven_interface": {
+    "note": "预留：自然语言目标 → 指标 → 问题类型 → 调用本页策略优化逻辑",
+    "example": {
+      "goal": "提高居民理解",
+      "metric": "fact_accuracy",
+      "problem": "understanding_gap",
+      "strategy": "B_professional_chain"
+    }
+  }
+}

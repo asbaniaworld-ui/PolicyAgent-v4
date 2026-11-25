@@ -1,0 +1,1656 @@
+{
+  "actor_x_strategy": [
+    {
+      "actor": "government",
+      "strategy": "policy_fact",
+      "share": 0.8373305526590198,
+      "count": 803
+    },
+    {
+      "actor": "government",
+      "strategy": "exclude",
+      "share": 0.1136600625651721,
+      "count": 109
+    },
+    {
+      "actor": "government",
+      "strategy": "general_statement",
+      "share": 0.03232533889468196,
+      "count": 31
+    },
+    {
+      "actor": "government",
+      "strategy": "call_to_action",
+      "share": 0.01355578727841502,
+      "count": 13
+    },
+    {
+      "actor": "government",
+      "strategy": "other_unclear",
+      "share": 0.002085505735140772,
+      "count": 2
+    },
+    {
+      "actor": "government",
+      "strategy": "problem_questioning",
+      "share": 0.001042752867570386,
+      "count": 1
+    },
+    {
+      "actor": "government",
+      "strategy": "case_evidence",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "actor": "government",
+      "strategy": "interest_appeal",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "actor": "government",
+      "strategy": "personal_experience",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "actor": "media",
+      "strategy": "policy_fact",
+      "share": 0.9642979745966358,
+      "count": 2809
+    },
+    {
+      "actor": "media",
+      "strategy": "general_statement",
+      "share": 0.01407483693786474,
+      "count": 41
+    },
+    {
+      "actor": "media",
+      "strategy": "exclude",
+      "share": 0.009268795056642637,
+      "count": 27
+    },
+    {
+      "actor": "media",
+      "strategy": "problem_questioning",
+      "share": 0.006179196704428424,
+      "count": 18
+    },
+    {
+      "actor": "media",
+      "strategy": "interest_appeal",
+      "share": 0.003432887058015791,
+      "count": 10
+    },
+    {
+      "actor": "media",
+      "strategy": "case_evidence",
+      "share": 0.001373154823206317,
+      "count": 4
+    },
+    {
+      "actor": "media",
+      "strategy": "call_to_action",
+      "share": 0.0006865774116031583,
+      "count": 2
+    },
+    {
+      "actor": "media",
+      "strategy": "other_unclear",
+      "share": 0.0006865774116031583,
+      "count": 2
+    },
+    {
+      "actor": "media",
+      "strategy": "personal_experience",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "actor": "professional",
+      "strategy": "policy_fact",
+      "share": 0.7001455604075691,
+      "count": 481
+    },
+    {
+      "actor": "professional",
+      "strategy": "exclude",
+      "share": 0.09898107714701601,
+      "count": 68
+    },
+    {
+      "actor": "professional",
+      "strategy": "general_statement",
+      "share": 0.06841339155749636,
+      "count": 47
+    },
+    {
+      "actor": "professional",
+      "strategy": "interest_appeal",
+      "share": 0.04075691411935953,
+      "count": 28
+    },
+    {
+      "actor": "professional",
+      "strategy": "problem_questioning",
+      "share": 0.03784570596797671,
+      "count": 26
+    },
+    {
+      "actor": "professional",
+      "strategy": "case_evidence",
+      "share": 0.024745269286754,
+      "count": 17
+    },
+    {
+      "actor": "professional",
+      "strategy": "other_unclear",
+      "share": 0.01892285298398836,
+      "count": 13
+    },
+    {
+      "actor": "professional",
+      "strategy": "call_to_action",
+      "share": 0.008733624454148471,
+      "count": 6
+    },
+    {
+      "actor": "professional",
+      "strategy": "personal_experience",
+      "share": 0.001455604075691412,
+      "count": 1
+    },
+    {
+      "actor": "public",
+      "strategy": "policy_fact",
+      "share": 0.4284788676236045,
+      "count": 8597
+    },
+    {
+      "actor": "public",
+      "strategy": "general_statement",
+      "share": 0.2421251993620415,
+      "count": 4858
+    },
+    {
+      "actor": "public",
+      "strategy": "interest_appeal",
+      "share": 0.09589314194577353,
+      "count": 1924
+    },
+    {
+      "actor": "public",
+      "strategy": "problem_questioning",
+      "share": 0.08562599681020734,
+      "count": 1718
+    },
+    {
+      "actor": "public",
+      "strategy": "other_unclear",
+      "share": 0.07560805422647528,
+      "count": 1517
+    },
+    {
+      "actor": "public",
+      "strategy": "exclude",
+      "share": 0.05123604465709729,
+      "count": 1028
+    },
+    {
+      "actor": "public",
+      "strategy": "personal_experience",
+      "share": 0.008771929824561403,
+      "count": 176
+    },
+    {
+      "actor": "public",
+      "strategy": "call_to_action",
+      "share": 0.00842304625199362,
+      "count": 169
+    },
+    {
+      "actor": "public",
+      "strategy": "case_evidence",
+      "share": 0.003837719298245614,
+      "count": 77
+    }
+  ],
+  "stage_x_strategy": [
+    {
+      "stage": "S1",
+      "strategy": "policy_fact",
+      "share": 0.3684210526315789,
+      "count": 301
+    },
+    {
+      "stage": "S1",
+      "strategy": "other_unclear",
+      "share": 0.167686658506732,
+      "count": 137
+    },
+    {
+      "stage": "S1",
+      "strategy": "general_statement",
+      "share": 0.1468788249694002,
+      "count": 120
+    },
+    {
+      "stage": "S1",
+      "strategy": "problem_questioning",
+      "share": 0.1040391676866585,
+      "count": 85
+    },
+    {
+      "stage": "S1",
+      "strategy": "interest_appeal",
+      "share": 0.09791921664626684,
+      "count": 80
+    },
+    {
+      "stage": "S1",
+      "strategy": "case_evidence",
+      "share": 0.04773561811505508,
+      "count": 39
+    },
+    {
+      "stage": "S1",
+      "strategy": "exclude",
+      "share": 0.04528763769889841,
+      "count": 37
+    },
+    {
+      "stage": "S1",
+      "strategy": "call_to_action",
+      "share": 0.02203182374541004,
+      "count": 18
+    },
+    {
+      "stage": "S1",
+      "strategy": "personal_experience",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "stage": "S2",
+      "strategy": "policy_fact",
+      "share": 0.5658582235046401,
+      "count": 7256
+    },
+    {
+      "stage": "S2",
+      "strategy": "general_statement",
+      "share": 0.199953209077439,
+      "count": 2564
+    },
+    {
+      "stage": "S2",
+      "strategy": "other_unclear",
+      "share": 0.0755673399360524,
+      "count": 969
+    },
+    {
+      "stage": "S2",
+      "strategy": "exclude",
+      "share": 0.05622709194416283,
+      "count": 721
+    },
+    {
+      "stage": "S2",
+      "strategy": "problem_questioning",
+      "share": 0.04406145207829681,
+      "count": 565
+    },
+    {
+      "stage": "S2",
+      "strategy": "interest_appeal",
+      "share": 0.04296966388520627,
+      "count": 551
+    },
+    {
+      "stage": "S2",
+      "strategy": "call_to_action",
+      "share": 0.00725259299695859,
+      "count": 93
+    },
+    {
+      "stage": "S2",
+      "strategy": "personal_experience",
+      "share": 0.00670669890041332,
+      "count": 86
+    },
+    {
+      "stage": "S2",
+      "strategy": "case_evidence",
+      "share": 0.001403727676830695,
+      "count": 18
+    },
+    {
+      "stage": "S3",
+      "strategy": "policy_fact",
+      "share": 0.4609218436873748,
+      "count": 3220
+    },
+    {
+      "stage": "S3",
+      "strategy": "general_statement",
+      "share": 0.2190094474663613,
+      "count": 1530
+    },
+    {
+      "stage": "S3",
+      "strategy": "interest_appeal",
+      "share": 0.1404237045519611,
+      "count": 981
+    },
+    {
+      "stage": "S3",
+      "strategy": "problem_questioning",
+      "share": 0.07357572287432007,
+      "count": 514
+    },
+    {
+      "stage": "S3",
+      "strategy": "other_unclear",
+      "share": 0.04523332379043802,
+      "count": 316
+    },
+    {
+      "stage": "S3",
+      "strategy": "exclude",
+      "share": 0.04451760664185514,
+      "count": 311
+    },
+    {
+      "stage": "S3",
+      "strategy": "call_to_action",
+      "share": 0.006584597766962496,
+      "count": 46
+    },
+    {
+      "stage": "S3",
+      "strategy": "personal_experience",
+      "share": 0.006584597766962496,
+      "count": 46
+    },
+    {
+      "stage": "S3",
+      "strategy": "case_evidence",
+      "share": 0.003149155453764672,
+      "count": 22
+    },
+    {
+      "stage": "S4",
+      "strategy": "policy_fact",
+      "share": 0.4786089567175382,
+      "count": 1913
+    },
+    {
+      "stage": "S4",
+      "strategy": "general_statement",
+      "share": 0.1908931698774081,
+      "count": 763
+    },
+    {
+      "stage": "S4",
+      "strategy": "problem_questioning",
+      "share": 0.1498623967975982,
+      "count": 599
+    },
+    {
+      "stage": "S4",
+      "strategy": "interest_appeal",
+      "share": 0.08756567425569177,
+      "count": 350
+    },
+    {
+      "stage": "S4",
+      "strategy": "exclude",
+      "share": 0.04078058543907931,
+      "count": 163
+    },
+    {
+      "stage": "S4",
+      "strategy": "other_unclear",
+      "share": 0.02802101576182137,
+      "count": 112
+    },
+    {
+      "stage": "S4",
+      "strategy": "personal_experience",
+      "share": 0.01125844383287466,
+      "count": 45
+    },
+    {
+      "stage": "S4",
+      "strategy": "call_to_action",
+      "share": 0.00825619214410808,
+      "count": 33
+    },
+    {
+      "stage": "S4",
+      "strategy": "case_evidence",
+      "share": 0.00475356517388041,
+      "count": 19
+    }
+  ],
+  "platform_x_strategy": [
+    {
+      "platform": "forum",
+      "strategy": "interest_appeal",
+      "share": 0.451006711409396,
+      "count": 336
+    },
+    {
+      "platform": "forum",
+      "strategy": "policy_fact",
+      "share": 0.2885906040268457,
+      "count": 215
+    },
+    {
+      "platform": "forum",
+      "strategy": "general_statement",
+      "share": 0.1436241610738255,
+      "count": 107
+    },
+    {
+      "platform": "forum",
+      "strategy": "other_unclear",
+      "share": 0.08993288590604027,
+      "count": 67
+    },
+    {
+      "platform": "forum",
+      "strategy": "problem_questioning",
+      "share": 0.01208053691275168,
+      "count": 9
+    },
+    {
+      "platform": "forum",
+      "strategy": "call_to_action",
+      "share": 0.008053691275167786,
+      "count": 6
+    },
+    {
+      "platform": "forum",
+      "strategy": "exclude",
+      "share": 0.004026845637583893,
+      "count": 3
+    },
+    {
+      "platform": "forum",
+      "strategy": "case_evidence",
+      "share": 0.002684563758389262,
+      "count": 2
+    },
+    {
+      "platform": "forum",
+      "strategy": "personal_experience",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "platform": "government",
+      "strategy": "policy_fact",
+      "share": 0.8923076923076924,
+      "count": 116
+    },
+    {
+      "platform": "government",
+      "strategy": "exclude",
+      "share": 0.07692307692307693,
+      "count": 10
+    },
+    {
+      "platform": "government",
+      "strategy": "general_statement",
+      "share": 0.01538461538461539,
+      "count": 2
+    },
+    {
+      "platform": "government",
+      "strategy": "call_to_action",
+      "share": 0.007692307692307693,
+      "count": 1
+    },
+    {
+      "platform": "government",
+      "strategy": "other_unclear",
+      "share": 0.007692307692307693,
+      "count": 1
+    },
+    {
+      "platform": "government",
+      "strategy": "case_evidence",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "platform": "government",
+      "strategy": "interest_appeal",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "platform": "government",
+      "strategy": "personal_experience",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "platform": "government",
+      "strategy": "problem_questioning",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "platform": "news_app",
+      "strategy": "policy_fact",
+      "share": 0.4647971360381862,
+      "count": 6232
+    },
+    {
+      "platform": "news_app",
+      "strategy": "general_statement",
+      "share": 0.2265065632458234,
+      "count": 3037
+    },
+    {
+      "platform": "news_app",
+      "strategy": "problem_questioning",
+      "share": 0.1132905727923628,
+      "count": 1519
+    },
+    {
+      "platform": "news_app",
+      "strategy": "interest_appeal",
+      "share": 0.09486873508353222,
+      "count": 1272
+    },
+    {
+      "platform": "news_app",
+      "strategy": "other_unclear",
+      "share": 0.04795644391408115,
+      "count": 643
+    },
+    {
+      "platform": "news_app",
+      "strategy": "exclude",
+      "share": 0.03154832935560859,
+      "count": 423
+    },
+    {
+      "platform": "news_app",
+      "strategy": "personal_experience",
+      "share": 0.00991945107398568,
+      "count": 133
+    },
+    {
+      "platform": "news_app",
+      "strategy": "call_to_action",
+      "share": 0.007010739856801909,
+      "count": 94
+    },
+    {
+      "platform": "news_app",
+      "strategy": "case_evidence",
+      "share": 0.004102028639618139,
+      "count": 55
+    },
+    {
+      "platform": "newspaper",
+      "strategy": "policy_fact",
+      "share": 0.9763513513513513,
+      "count": 289
+    },
+    {
+      "platform": "newspaper",
+      "strategy": "exclude",
+      "share": 0.01351351351351351,
+      "count": 4
+    },
+    {
+      "platform": "newspaper",
+      "strategy": "case_evidence",
+      "share": 0.003378378378378379,
+      "count": 1
+    },
+    {
+      "platform": "newspaper",
+      "strategy": "other_unclear",
+      "share": 0.003378378378378379,
+      "count": 1
+    },
+    {
+      "platform": "newspaper",
+      "strategy": "problem_questioning",
+      "share": 0.003378378378378379,
+      "count": 1
+    },
+    {
+      "platform": "newspaper",
+      "strategy": "call_to_action",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "platform": "newspaper",
+      "strategy": "general_statement",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "platform": "newspaper",
+      "strategy": "interest_appeal",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "platform": "newspaper",
+      "strategy": "personal_experience",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "platform": "other",
+      "strategy": "policy_fact",
+      "share": 1.0,
+      "count": 3
+    },
+    {
+      "platform": "other",
+      "strategy": "call_to_action",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "platform": "other",
+      "strategy": "case_evidence",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "platform": "other",
+      "strategy": "exclude",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "platform": "other",
+      "strategy": "general_statement",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "platform": "other",
+      "strategy": "interest_appeal",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "platform": "other",
+      "strategy": "other_unclear",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "platform": "other",
+      "strategy": "personal_experience",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "platform": "other",
+      "strategy": "problem_questioning",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "platform": "video",
+      "strategy": "policy_fact",
+      "share": 0.7601832993890021,
+      "count": 1493
+    },
+    {
+      "platform": "video",
+      "strategy": "general_statement",
+      "share": 0.1196537678207739,
+      "count": 235
+    },
+    {
+      "platform": "video",
+      "strategy": "other_unclear",
+      "share": 0.0575356415478615,
+      "count": 113
+    },
+    {
+      "platform": "video",
+      "strategy": "interest_appeal",
+      "share": 0.04327902240325866,
+      "count": 85
+    },
+    {
+      "platform": "video",
+      "strategy": "problem_questioning",
+      "share": 0.009164969450101833,
+      "count": 18
+    },
+    {
+      "platform": "video",
+      "strategy": "case_evidence",
+      "share": 0.005091649694501019,
+      "count": 10
+    },
+    {
+      "platform": "video",
+      "strategy": "call_to_action",
+      "share": 0.004073319755600814,
+      "count": 8
+    },
+    {
+      "platform": "video",
+      "strategy": "personal_experience",
+      "share": 0.001018329938900204,
+      "count": 2
+    },
+    {
+      "platform": "video",
+      "strategy": "exclude",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "platform": "website",
+      "strategy": "policy_fact",
+      "share": 0.7685185185185185,
+      "count": 249
+    },
+    {
+      "platform": "website",
+      "strategy": "general_statement",
+      "share": 0.1296296296296296,
+      "count": 42
+    },
+    {
+      "platform": "website",
+      "strategy": "exclude",
+      "share": 0.04320987654320987,
+      "count": 14
+    },
+    {
+      "platform": "website",
+      "strategy": "other_unclear",
+      "share": 0.03395061728395062,
+      "count": 11
+    },
+    {
+      "platform": "website",
+      "strategy": "problem_questioning",
+      "share": 0.01851851851851852,
+      "count": 6
+    },
+    {
+      "platform": "website",
+      "strategy": "case_evidence",
+      "share": 0.00308641975308642,
+      "count": 1
+    },
+    {
+      "platform": "website",
+      "strategy": "interest_appeal",
+      "share": 0.00308641975308642,
+      "count": 1
+    },
+    {
+      "platform": "website",
+      "strategy": "call_to_action",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "platform": "website",
+      "strategy": "personal_experience",
+      "share": 0.0,
+      "count": 0
+    },
+    {
+      "platform": "wechat",
+      "strategy": "policy_fact",
+      "share": 0.7720659553831232,
+      "count": 2388
+    },
+    {
+      "platform": "wechat",
+      "strategy": "general_statement",
+      "share": 0.1493695441319108,
+      "count": 462
+    },
+    {
+      "platform": "wechat",
+      "strategy": "other_unclear",
+      "share": 0.02521823472356935,
+      "count": 78
+    },
+    {
+      "platform": "wechat",
+      "strategy": "exclude",
+      "share": 0.01778208858713223,
+      "count": 55
+    },
+    {
+      "platform": "wechat",
+      "strategy": "problem_questioning",
+      "share": 0.01390236016812156,
+      "count": 43
+    },
+    {
+      "platform": "wechat",
+      "strategy": "interest_appeal",
+      "share": 0.01260911736178467,
+      "count": 39
+    },
+    {
+      "platform": "wechat",
+      "strategy": "call_to_action",
+      "share": 0.005172971225347559,
+      "count": 16
+    },
+    {
+      "platform": "wechat",
+      "strategy": "case_evidence",
+      "share": 0.003233107015842224,
+      "count": 10
+    },
+    {
+      "platform": "wechat",
+      "strategy": "personal_experience",
+      "share": 0.0006466214031684449,
+      "count": 2
+    },
+    {
+      "platform": "weibo",
+      "strategy": "policy_fact",
+      "share": 0.3658798283261803,
+      "count": 1705
+    },
+    {
+      "platform": "weibo",
+      "strategy": "general_statement",
+      "share": 0.2343347639484979,
+      "count": 1092
+    },
+    {
+      "platform": "weibo",
+      "strategy": "exclude",
+      "share": 0.1551502145922747,
+      "count": 723
+    },
+    {
+      "platform": "weibo",
+      "strategy": "other_unclear",
+      "share": 0.1330472103004292,
+      "count": 620
+    },
+    {
+      "platform": "weibo",
+      "strategy": "interest_appeal",
+      "share": 0.04914163090128755,
+      "count": 229
+    },
+    {
+      "platform": "weibo",
+      "strategy": "problem_questioning",
+      "share": 0.03583690987124463,
+      "count": 167
+    },
+    {
+      "platform": "weibo",
+      "strategy": "call_to_action",
+      "share": 0.01394849785407725,
+      "count": 65
+    },
+    {
+      "platform": "weibo",
+      "strategy": "personal_experience",
+      "share": 0.008583690987124463,
+      "count": 40
+    },
+    {
+      "platform": "weibo",
+      "strategy": "case_evidence",
+      "share": 0.00407725321888412,
+      "count": 19
+    }
+  ],
+  "stage_actor_x_strategy": [
+    {
+      "stage": "S1",
+      "actor": "government",
+      "strategy": "policy_fact",
+      "count": 69,
+      "share": 0.9452054794520548
+    },
+    {
+      "stage": "S1",
+      "actor": "government",
+      "strategy": "general_statement",
+      "count": 3,
+      "share": 0.0410958904109589
+    },
+    {
+      "stage": "S1",
+      "actor": "government",
+      "strategy": "other_unclear",
+      "count": 1,
+      "share": 0.0136986301369863
+    },
+    {
+      "stage": "S1",
+      "actor": "media",
+      "strategy": "policy_fact",
+      "count": 39,
+      "share": 0.7959183673469388
+    },
+    {
+      "stage": "S1",
+      "actor": "media",
+      "strategy": "general_statement",
+      "count": 7,
+      "share": 0.1428571428571428
+    },
+    {
+      "stage": "S1",
+      "actor": "media",
+      "strategy": "case_evidence",
+      "count": 2,
+      "share": 0.04081632653061224
+    },
+    {
+      "stage": "S1",
+      "actor": "media",
+      "strategy": "interest_appeal",
+      "count": 1,
+      "share": 0.02040816326530612
+    },
+    {
+      "stage": "S1",
+      "actor": "professional",
+      "strategy": "interest_appeal",
+      "count": 11,
+      "share": 0.2619047619047619
+    },
+    {
+      "stage": "S1",
+      "actor": "professional",
+      "strategy": "policy_fact",
+      "count": 9,
+      "share": 0.2142857142857143
+    },
+    {
+      "stage": "S1",
+      "actor": "professional",
+      "strategy": "case_evidence",
+      "count": 6,
+      "share": 0.1428571428571428
+    },
+    {
+      "stage": "S1",
+      "actor": "professional",
+      "strategy": "general_statement",
+      "count": 5,
+      "share": 0.119047619047619
+    },
+    {
+      "stage": "S1",
+      "actor": "professional",
+      "strategy": "other_unclear",
+      "count": 5,
+      "share": 0.119047619047619
+    },
+    {
+      "stage": "S1",
+      "actor": "professional",
+      "strategy": "exclude",
+      "count": 3,
+      "share": 0.07142857142857142
+    },
+    {
+      "stage": "S1",
+      "actor": "professional",
+      "strategy": "problem_questioning",
+      "count": 3,
+      "share": 0.07142857142857142
+    },
+    {
+      "stage": "S1",
+      "actor": "public",
+      "strategy": "policy_fact",
+      "count": 184,
+      "share": 0.2817764165390506
+    },
+    {
+      "stage": "S1",
+      "actor": "public",
+      "strategy": "other_unclear",
+      "count": 131,
+      "share": 0.2006125574272588
+    },
+    {
+      "stage": "S1",
+      "actor": "public",
+      "strategy": "general_statement",
+      "count": 105,
+      "share": 0.1607963246554364
+    },
+    {
+      "stage": "S1",
+      "actor": "public",
+      "strategy": "problem_questioning",
+      "count": 82,
+      "share": 0.1255742725880551
+    },
+    {
+      "stage": "S1",
+      "actor": "public",
+      "strategy": "interest_appeal",
+      "count": 68,
+      "share": 0.1041347626339969
+    },
+    {
+      "stage": "S1",
+      "actor": "public",
+      "strategy": "exclude",
+      "count": 34,
+      "share": 0.05206738131699847
+    },
+    {
+      "stage": "S1",
+      "actor": "public",
+      "strategy": "case_evidence",
+      "count": 31,
+      "share": 0.04747320061255743
+    },
+    {
+      "stage": "S1",
+      "actor": "public",
+      "strategy": "call_to_action",
+      "count": 18,
+      "share": 0.02756508422664625
+    },
+    {
+      "stage": "S2",
+      "actor": "government",
+      "strategy": "policy_fact",
+      "count": 527,
+      "share": 0.8365079365079365
+    },
+    {
+      "stage": "S2",
+      "actor": "government",
+      "strategy": "exclude",
+      "count": 67,
+      "share": 0.1063492063492063
+    },
+    {
+      "stage": "S2",
+      "actor": "government",
+      "strategy": "general_statement",
+      "count": 26,
+      "share": 0.04126984126984127
+    },
+    {
+      "stage": "S2",
+      "actor": "government",
+      "strategy": "call_to_action",
+      "count": 9,
+      "share": 0.01428571428571429
+    },
+    {
+      "stage": "S2",
+      "actor": "government",
+      "strategy": "other_unclear",
+      "count": 1,
+      "share": 0.001587301587301587
+    },
+    {
+      "stage": "S2",
+      "actor": "media",
+      "strategy": "policy_fact",
+      "count": 2329,
+      "share": 0.9744769874476987
+    },
+    {
+      "stage": "S2",
+      "actor": "media",
+      "strategy": "general_statement",
+      "count": 28,
+      "share": 0.01171548117154812
+    },
+    {
+      "stage": "S2",
+      "actor": "media",
+      "strategy": "exclude",
+      "count": 21,
+      "share": 0.008786610878661089
+    },
+    {
+      "stage": "S2",
+      "actor": "media",
+      "strategy": "interest_appeal",
+      "count": 5,
+      "share": 0.002092050209205021
+    },
+    {
+      "stage": "S2",
+      "actor": "media",
+      "strategy": "problem_questioning",
+      "count": 3,
+      "share": 0.001255230125523013
+    },
+    {
+      "stage": "S2",
+      "actor": "media",
+      "strategy": "other_unclear",
+      "count": 2,
+      "share": 0.0008368200836820083
+    },
+    {
+      "stage": "S2",
+      "actor": "media",
+      "strategy": "call_to_action",
+      "count": 1,
+      "share": 0.0004184100418410042
+    },
+    {
+      "stage": "S2",
+      "actor": "media",
+      "strategy": "case_evidence",
+      "count": 1,
+      "share": 0.0004184100418410042
+    },
+    {
+      "stage": "S2",
+      "actor": "professional",
+      "strategy": "policy_fact",
+      "count": 265,
+      "share": 0.7507082152974505
+    },
+    {
+      "stage": "S2",
+      "actor": "professional",
+      "strategy": "exclude",
+      "count": 33,
+      "share": 0.09348441926345609
+    },
+    {
+      "stage": "S2",
+      "actor": "professional",
+      "strategy": "general_statement",
+      "count": 30,
+      "share": 0.08498583569405099
+    },
+    {
+      "stage": "S2",
+      "actor": "professional",
+      "strategy": "interest_appeal",
+      "count": 11,
+      "share": 0.0311614730878187
+    },
+    {
+      "stage": "S2",
+      "actor": "professional",
+      "strategy": "problem_questioning",
+      "count": 8,
+      "share": 0.0226628895184136
+    },
+    {
+      "stage": "S2",
+      "actor": "professional",
+      "strategy": "other_unclear",
+      "count": 3,
+      "share": 0.0084985835694051
+    },
+    {
+      "stage": "S2",
+      "actor": "professional",
+      "strategy": "case_evidence",
+      "count": 2,
+      "share": 0.0056657223796034
+    },
+    {
+      "stage": "S2",
+      "actor": "professional",
+      "strategy": "call_to_action",
+      "count": 1,
+      "share": 0.0028328611898017
+    },
+    {
+      "stage": "S2",
+      "actor": "public",
+      "strategy": "policy_fact",
+      "count": 4135,
+      "share": 0.4375661375661375
+    },
+    {
+      "stage": "S2",
+      "actor": "public",
+      "strategy": "general_statement",
+      "count": 2480,
+      "share": 0.2624338624338624
+    },
+    {
+      "stage": "S2",
+      "actor": "public",
+      "strategy": "other_unclear",
+      "count": 963,
+      "share": 0.1019047619047619
+    },
+    {
+      "stage": "S2",
+      "actor": "public",
+      "strategy": "exclude",
+      "count": 600,
+      "share": 0.06349206349206349
+    },
+    {
+      "stage": "S2",
+      "actor": "public",
+      "strategy": "problem_questioning",
+      "count": 554,
+      "share": 0.05862433862433863
+    },
+    {
+      "stage": "S2",
+      "actor": "public",
+      "strategy": "interest_appeal",
+      "count": 535,
+      "share": 0.05661375661375662
+    },
+    {
+      "stage": "S2",
+      "actor": "public",
+      "strategy": "personal_experience",
+      "count": 86,
+      "share": 0.0091005291005291
+    },
+    {
+      "stage": "S2",
+      "actor": "public",
+      "strategy": "call_to_action",
+      "count": 82,
+      "share": 0.008677248677248678
+    },
+    {
+      "stage": "S2",
+      "actor": "public",
+      "strategy": "case_evidence",
+      "count": 15,
+      "share": 0.001587301587301587
+    },
+    {
+      "stage": "S3",
+      "actor": "government",
+      "strategy": "policy_fact",
+      "count": 162,
+      "share": 0.7980295566502463
+    },
+    {
+      "stage": "S3",
+      "actor": "government",
+      "strategy": "exclude",
+      "count": 35,
+      "share": 0.1724137931034483
+    },
+    {
+      "stage": "S3",
+      "actor": "government",
+      "strategy": "call_to_action",
+      "count": 3,
+      "share": 0.01477832512315271
+    },
+    {
+      "stage": "S3",
+      "actor": "government",
+      "strategy": "general_statement",
+      "count": 2,
+      "share": 0.009852216748768473
+    },
+    {
+      "stage": "S3",
+      "actor": "government",
+      "strategy": "problem_questioning",
+      "count": 1,
+      "share": 0.004926108374384237
+    },
+    {
+      "stage": "S3",
+      "actor": "media",
+      "strategy": "policy_fact",
+      "count": 336,
+      "share": 0.9155313351498637
+    },
+    {
+      "stage": "S3",
+      "actor": "media",
+      "strategy": "problem_questioning",
+      "count": 15,
+      "share": 0.04087193460490463
+    },
+    {
+      "stage": "S3",
+      "actor": "media",
+      "strategy": "general_statement",
+      "count": 6,
+      "share": 0.01634877384196185
+    },
+    {
+      "stage": "S3",
+      "actor": "media",
+      "strategy": "exclude",
+      "count": 4,
+      "share": 0.0108991825613079
+    },
+    {
+      "stage": "S3",
+      "actor": "media",
+      "strategy": "interest_appeal",
+      "count": 4,
+      "share": 0.0108991825613079
+    },
+    {
+      "stage": "S3",
+      "actor": "media",
+      "strategy": "call_to_action",
+      "count": 1,
+      "share": 0.002724795640326975
+    },
+    {
+      "stage": "S3",
+      "actor": "media",
+      "strategy": "case_evidence",
+      "count": 1,
+      "share": 0.002724795640326975
+    },
+    {
+      "stage": "S3",
+      "actor": "professional",
+      "strategy": "policy_fact",
+      "count": 146,
+      "share": 0.7087378640776699
+    },
+    {
+      "stage": "S3",
+      "actor": "professional",
+      "strategy": "exclude",
+      "count": 26,
+      "share": 0.1262135922330097
+    },
+    {
+      "stage": "S3",
+      "actor": "professional",
+      "strategy": "problem_questioning",
+      "count": 9,
+      "share": 0.04368932038834952
+    },
+    {
+      "stage": "S3",
+      "actor": "professional",
+      "strategy": "general_statement",
+      "count": 8,
+      "share": 0.03883495145631068
+    },
+    {
+      "stage": "S3",
+      "actor": "professional",
+      "strategy": "case_evidence",
+      "count": 6,
+      "share": 0.02912621359223301
+    },
+    {
+      "stage": "S3",
+      "actor": "professional",
+      "strategy": "call_to_action",
+      "count": 4,
+      "share": 0.01941747572815534
+    },
+    {
+      "stage": "S3",
+      "actor": "professional",
+      "strategy": "other_unclear",
+      "count": 4,
+      "share": 0.01941747572815534
+    },
+    {
+      "stage": "S3",
+      "actor": "professional",
+      "strategy": "interest_appeal",
+      "count": 3,
+      "share": 0.01456310679611651
+    },
+    {
+      "stage": "S3",
+      "actor": "public",
+      "strategy": "policy_fact",
+      "count": 2576,
+      "share": 0.4148148148148148
+    },
+    {
+      "stage": "S3",
+      "actor": "public",
+      "strategy": "general_statement",
+      "count": 1514,
+      "share": 0.2438003220611916
+    },
+    {
+      "stage": "S3",
+      "actor": "public",
+      "strategy": "interest_appeal",
+      "count": 974,
+      "share": 0.1568438003220612
+    },
+    {
+      "stage": "S3",
+      "actor": "public",
+      "strategy": "problem_questioning",
+      "count": 489,
+      "share": 0.078743961352657
+    },
+    {
+      "stage": "S3",
+      "actor": "public",
+      "strategy": "other_unclear",
+      "count": 312,
+      "share": 0.05024154589371981
+    },
+    {
+      "stage": "S3",
+      "actor": "public",
+      "strategy": "exclude",
+      "count": 246,
+      "share": 0.03961352657004831
+    },
+    {
+      "stage": "S3",
+      "actor": "public",
+      "strategy": "personal_experience",
+      "count": 46,
+      "share": 0.007407407407407408
+    },
+    {
+      "stage": "S3",
+      "actor": "public",
+      "strategy": "call_to_action",
+      "count": 38,
+      "share": 0.006119162640901771
+    },
+    {
+      "stage": "S3",
+      "actor": "public",
+      "strategy": "case_evidence",
+      "count": 15,
+      "share": 0.002415458937198068
+    },
+    {
+      "stage": "S4",
+      "actor": "government",
+      "strategy": "policy_fact",
+      "count": 45,
+      "share": 0.8490566037735849
+    },
+    {
+      "stage": "S4",
+      "actor": "government",
+      "strategy": "exclude",
+      "count": 7,
+      "share": 0.1320754716981132
+    },
+    {
+      "stage": "S4",
+      "actor": "government",
+      "strategy": "call_to_action",
+      "count": 1,
+      "share": 0.01886792452830189
+    },
+    {
+      "stage": "S4",
+      "actor": "media",
+      "strategy": "policy_fact",
+      "count": 105,
+      "share": 0.9813084112149533
+    },
+    {
+      "stage": "S4",
+      "actor": "media",
+      "strategy": "exclude",
+      "count": 2,
+      "share": 0.01869158878504673
+    },
+    {
+      "stage": "S4",
+      "actor": "professional",
+      "strategy": "policy_fact",
+      "count": 61,
+      "share": 0.7093023255813954
+    },
+    {
+      "stage": "S4",
+      "actor": "professional",
+      "strategy": "exclude",
+      "count": 6,
+      "share": 0.06976744186046512
+    },
+    {
+      "stage": "S4",
+      "actor": "professional",
+      "strategy": "problem_questioning",
+      "count": 6,
+      "share": 0.06976744186046512
+    },
+    {
+      "stage": "S4",
+      "actor": "professional",
+      "strategy": "general_statement",
+      "count": 4,
+      "share": 0.04651162790697674
+    },
+    {
+      "stage": "S4",
+      "actor": "professional",
+      "strategy": "case_evidence",
+      "count": 3,
+      "share": 0.03488372093023256
+    },
+    {
+      "stage": "S4",
+      "actor": "professional",
+      "strategy": "interest_appeal",
+      "count": 3,
+      "share": 0.03488372093023256
+    },
+    {
+      "stage": "S4",
+      "actor": "professional",
+      "strategy": "call_to_action",
+      "count": 1,
+      "share": 0.01162790697674419
+    },
+    {
+      "stage": "S4",
+      "actor": "professional",
+      "strategy": "other_unclear",
+      "count": 1,
+      "share": 0.01162790697674419
+    },
+    {
+      "stage": "S4",
+      "actor": "professional",
+      "strategy": "personal_experience",
+      "count": 1,
+      "share": 0.01162790697674419
+    },
+    {
+      "stage": "S4",
+      "actor": "public",
+      "strategy": "policy_fact",
+      "count": 1702,
+      "share": 0.4537456678219142
+    },
+    {
+      "stage": "S4",
+      "actor": "public",
+      "strategy": "general_statement",
+      "count": 759,
+      "share": 0.2023460410557185
+    },
+    {
+      "stage": "S4",
+      "actor": "public",
+      "strategy": "problem_questioning",
+      "count": 593,
+      "share": 0.1580911756864836
+    },
+    {
+      "stage": "S4",
+      "actor": "public",
+      "strategy": "interest_appeal",
+      "count": 347,
+      "share": 0.0925086643561717
+    },
+    {
+      "stage": "S4",
+      "actor": "public",
+      "strategy": "exclude",
+      "count": 148,
+      "share": 0.03945614502799254
+    },
+    {
+      "stage": "S4",
+      "actor": "public",
+      "strategy": "other_unclear",
+      "count": 111,
+      "share": 0.0295921087709944
+    },
+    {
+      "stage": "S4",
+      "actor": "public",
+      "strategy": "personal_experience",
+      "count": 44,
+      "share": 0.01173020527859238
+    },
+    {
+      "stage": "S4",
+      "actor": "public",
+      "strategy": "call_to_action",
+      "count": 31,
+      "share": 0.008264462809917356
+    },
+    {
+      "stage": "S4",
+      "actor": "public",
+      "strategy": "case_evidence",
+      "count": 16,
+      "share": 0.004265529192215409
+    }
+  ]
+}

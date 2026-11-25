@@ -1,0 +1,52 @@
+{
+  "networks": {
+    "cross_platform_reprint": {
+      "government": {
+        "media": 0.511811,
+        "public": 0.251969,
+        "government": 0.173228,
+        "professional": 0.062992
+      },
+      "media": {
+        "media": 0.540897,
+        "public": 0.364116,
+        "government": 0.079156,
+        "professional": 0.015831
+      },
+      "professional": {
+        "media": 0.4,
+        "public": 0.36,
+        "professional": 0.2,
+        "government": 0.04
+      },
+      "public": {
+        "public": 0.468668,
+        "media": 0.407311,
+        "government": 0.073107,
+        "professional": 0.050914
+      }
+    },
+    "weibo_repost": {
+      "government": {
+        "government": 0.861386,
+        "media": 0.138614
+      },
+      "media": {
+        "media": 0.866667,
+        "public": 0.133333
+      },
+      "professional": {
+        "public": 0.538462,
+        "professional": 0.307692,
+        "media": 0.153846
+      },
+      "public": {
+        "media": 0.425504,
+        "public": 0.411191,
+        "government": 0.122316,
+        "professional": 0.040989
+      }
+    }
+  },
+  "source": "agent_model_design_v1/interaction_probability.json (read-only)"
+}

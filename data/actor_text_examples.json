@@ -1,0 +1,248 @@
+{
+  "government": {
+    "text": "#住宅电梯内要有信号#【#国家标准住宅项目规范发布#】3月31日，国家标准《住宅项目规范》发布。新规范规定了新建住宅建筑层高不低于3米，4层及以上住宅设置电梯；提高了墙体和楼板隔声性能；提高了户门、卫生间门的通行净宽；提…",
+    "behavior": "direct_repost",
+    "strategy": "policy_fact",
+    "platform": "weibo",
+    "source": "annotation/annotation_confirmed.csv",
+    "examples": [
+      {
+        "text": "#住宅电梯内要有信号#【#国家标准住宅项目规范发布#】3月31日，国家标准《住宅项目规范》发布。新规范规定了新建住宅建筑层高不低于3米，4层及以上住宅设置电梯；提高了墙体和楼板隔声性能；提高了户门、卫生间门的通行净宽；提…",
+        "behavior": "direct_repost",
+        "strategy": "policy_fact",
+        "platform": "weibo",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "【层高不低于3米，提高隔音性能……今后新房子要符合这些标准】住房城乡建设部发布国家标准《住宅项目规范》。规范将于今年5月1日起施行，要求住宅项目建设应以安全、舒适、绿色、智慧为目标，遵循“经济合理、安全耐久，以人为本、健…",
+        "behavior": "direct_repost",
+        "strategy": "",
+        "platform": "weibo",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "【住宅项目的底线要求提高】3月31日，国家标准《住宅项目规范》（以下简称“规范”）发布，以安全、舒适、绿色、智慧为目标，在规模、布局、功能、性能和关键技术措施等方面，对住宅项目的建设、使用和维护作出规定。规范提出了住宅项…",
+        "behavior": "direct_repost",
+        "strategy": "",
+        "platform": "weibo",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "5月1日实施的住房新国标全方位提升百姓居住品质，层高、房间净高和厨卫面积的增加让居住空间更宽敞舒适，电梯配置升级、信号覆盖完善、快递柜预留等设计带来生活便利；阳台栏杆增高、噪音控制、无障碍通道等安全与适老化设计，降低安全…",
+        "behavior": "video_post",
+        "strategy": "policy_fact",
+        "platform": "video",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "#绵阳政事#【绵阳：鼓励第四代建筑，推进人居环境提质升级】住宅层高从2.8米跃升至3米，4层及以上住宅设电梯，通信信号覆盖电梯轿厢……住房和城乡建设部发布的国家标准《住宅项目规范》将于今年5月1日起正式施行。《规范》在规…",
+        "behavior": "news_report",
+        "strategy": "policy_fact",
+        "platform": "weibo",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "#住宅电梯内要有信号#【#国家标准住宅项目规范发布#】#4层及以上住宅设电梯#3月31日，国家标准《住宅项目规范》发布。具体包括： [星星]新建住宅层高不低于3米 [星星]4层及以上住宅设置电梯，公共移动通信信号覆盖电梯…",
+        "behavior": "direct_repost",
+        "strategy": "",
+        "platform": "weibo",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "#践行绿色低碳生活方式#【国家标准《住宅项目规范》落地，有哪些看点[并不简单]】",
+        "behavior": "repost_with_comment",
+        "strategy": "call_to_action",
+        "platform": "weibo",
+        "source": "annotation/annotation_confirmed.csv"
+      }
+    ]
+  },
+  "media": {
+    "text": "第10版：天下 焦点 新建住宅层高不低于3米、4层及以上设置电梯 “好房子”时代开启 将产生哪些“鲶鱼效应”？",
+    "behavior": "news_report",
+    "strategy": "problem_questioning",
+    "platform": "newspaper",
+    "source": "annotation/annotation_confirmed.csv",
+    "examples": [
+      {
+        "text": "第10版：天下 焦点 新建住宅层高不低于3米、4层及以上设置电梯 “好房子”时代开启 将产生哪些“鲶鱼效应”？",
+        "behavior": "news_report",
+        "strategy": "problem_questioning",
+        "platform": "newspaper",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "“好房子”国家标准：层高不低于3米，4层及以上应设电梯！ #最新好房子国家标准定了 #未来新建房4层及以上应设电梯 #卧室使用面积不应小于5平米 3月31日，住建部正式发布国家标准《住宅项目规范》，自2025年5月1日起…",
+        "behavior": "video_post",
+        "strategy": "policy_fact",
+        "platform": "video",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "第01版：要闻 国家标准《住宅项目规范》落地，有哪些看点？■新建住宅建筑的层高提升为“不低于3米”■要求4层及以上住宅设置电梯 ■对住宅声环境指标要求进行了提升■要求住宅进行适老化设计并提高安全性",
+        "behavior": "direct_repost",
+        "strategy": "",
+        "platform": "newspaper",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "#国家标准住宅项目规范发布#【4层及以上新建住宅要设置电梯！最新国家标准来了】3月31日，住房城乡建设部发布国家标准《住宅项目规范》。新规范以住宅项目整体为对象，以安全、舒适、绿色、智慧为目标，在规模、布局、功能、性能和…",
+        "behavior": "direct_repost",
+        "strategy": "call_to_action",
+        "platform": "weibo",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "【投票 | 新公布的标准中，哪一项最符合你对新房的要求？】#国家标准要求4层起设电梯##好房子的新标准来了# 今天，国家标准《住宅项目规范》正式公布。新标准将现行要求规定的7层起设置电梯，提升为4层起就要设置电梯，每个住…",
+        "behavior": "forum_post",
+        "strategy": "other_unclear",
+        "platform": "weibo",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "□新华社记者 王优玲 住房城乡建设部3月31日发布国家标准《住宅项目规范》，要求住宅项目建设应以安全、舒适、绿色、智慧为目标，遵循“经济合理、安全耐久，以人为本、健康舒适，因地制宜、绿色低碳，科技赋能、智慧便利”的原则。…",
+        "behavior": "news_report",
+        "strategy": "case_evidence",
+        "platform": "newspaper",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "【#国家标准住宅项目规范发布#】?3月31日，国家标准《住宅项目规范》发布，以安全、舒适、绿色、智慧为目标，在规模、布局、功能、性能和关键技术措施等方面，对住宅项目的建设、使用和维护作出规定。《住宅项目规范》（以下简称“…",
+        "behavior": "original_post",
+        "strategy": "interest_appeal",
+        "platform": "weibo",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "第A08版：城建周刊 ·聚焦 《住宅项目规范》5月1日实施，极目新闻记者采访专家解读“好房子”这么建才能更宜居",
+        "behavior": "original_post",
+        "strategy": "policy_fact",
+        "platform": "newspaper",
+        "source": "annotation/annotation_confirmed.csv"
+      }
+    ]
+  },
+  "professional": {
+    "text": "4层及以上新建住宅要设置电梯，这一规定会如何影响未来新楼盘的房价走势？购房者需要提前考虑哪些因素？",
+    "behavior": "original_post",
+    "strategy": "problem_questioning",
+    "platform": "website",
+    "source": "annotation/annotation_confirmed.csv",
+    "examples": [
+      {
+        "text": "4层及以上新建住宅要设置电梯，这一规定会如何影响未来新楼盘的房价走势？购房者需要提前考虑哪些因素？",
+        "behavior": "original_post",
+        "strategy": "problem_questioning",
+        "platform": "website",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "“好房子”的标准已经正式落地了，住建部发布好房子的规范标准，不仅新增了住宅在四层及以上需装电梯的规定，还新增了加强隔音、提高室内门洞通行净宽的规定，在得房率、层高等方面做文章之后，进一步提高了住房的舒适度，这次目的很清晰…",
+        "behavior": "original_post",
+        "strategy": "policy_fact",
+        "platform": "weibo",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "《住宅项目规范》国家标准 GB 55038-2025，自2025年5月1日起实施",
+        "behavior": "direct_repost",
+        "strategy": "",
+        "platform": "wechat",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "标准规范丨GB 55038-2025《住宅项目规范》（涉及燃气），2025年5月1日起实施",
+        "behavior": "other",
+        "strategy": "call_to_action",
+        "platform": "wechat",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "房子又要翻天覆地了！住建部一纸文件拍板：5月1日起全国新建四层以上住宅必须安装电梯！扛着大米爬五",
+        "behavior": "original_post",
+        "strategy": "personal_experience",
+        "platform": "news_app",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "《住宅项目规范》将于5月起正式施行。新规通过提升住宅品质标准（如层高3米、4层及以上配电梯等），可能激发改善型购房者的换房意愿。专家指出，高品质新房的示范效应会促使原本不打算换房的群体转向新房市场，从而带动二手房挂牌量增…",
+        "behavior": "original_post",
+        "strategy": "case_evidence",
+        "platform": "news_app",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "新政之下，二手房的去与留。?还没到愚人节，现实就跟前两年买房的朋友开了一个天大的玩笑，昨天住建老大发布的住宅项目规范，让前两年高位买房的朋友，刚买的精装修豪宅转眼就变成了过时产品。 ?好房子的标准： 1??住宅层高不低于…",
+        "behavior": "video_post",
+        "strategy": "interest_appeal",
+        "platform": "video",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "2025是房子低点，感觉跌不动了，未来要起飞的节奏，预估起飞图都画出来了，原因是国家硬性要求了：发布的《住宅项目规范》5月1日正式施行，堪称买房人福利，新房品质将大幅提升，同样老房子价格只会越来越低，老房子要出手的也赶快…",
+        "behavior": "original_post",
+        "strategy": "other_unclear",
+        "platform": "news_app",
+        "source": "annotation/annotation_confirmed.csv"
+      }
+    ]
+  },
+  "public": {
+    "text": "没买房的这次赢麻了！ 买房新规来啦！ 5月1日起全国房子执行全新标准，直接把居住体验拉满，让咱和那些居住糟心事彻底说拜拜！ 第一，层高3米起跳！以前2.7米、2.8米的房子，一进屋就感觉压抑得慌，稍微装个吊灯、弄个吊顶，…",
+    "behavior": "original_post",
+    "strategy": "interest_appeal",
+    "platform": "news_app",
+    "source": "annotation/annotation_confirmed.csv",
+    "examples": [
+      {
+        "text": "没买房的这次赢麻了！ 买房新规来啦！ 5月1日起全国房子执行全新标准，直接把居住体验拉满，让咱和那些居住糟心事彻底说拜拜！ 第一，层高3米起跳！以前2.7米、2.8米的房子，一进屋就感觉压抑得慌，稍微装个吊灯、弄个吊顶，…",
+        "behavior": "original_post",
+        "strategy": "interest_appeal",
+        "platform": "news_app",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "1??昨日，住建部发布了国家标准《住宅项目规范》GB55038-2025，从空间、隔音、采光等多个维",
+        "behavior": "direct_repost",
+        "strategy": "policy_fact",
+        "platform": "news_app",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "房子又要翻天覆地了！ 新规来袭！从2024年5月1日起，全国所有新建住宅将不再是“马路对面就是公园”的时代，新的住宅设计标准将会彻底颠覆你对传统住宅的认知，这些新规将直接影响到你我每个人的居住环境！一起来看看吧~新规重点…",
+        "behavior": "original_post",
+        "strategy": "case_evidence",
+        "platform": "news_app",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "家人们，重大消息！从今年5月1号开始，住房迎来大变化！住建部发布的《住宅项目规范》要正式实施啦，以后",
+        "behavior": "other",
+        "strategy": "general_statement",
+        "platform": "news_app",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "《住宅项目规范》GB 55038 - 2025，简直就是一场住房品质革命！所有新建住宅的层高都要≥3米，四层及以上的楼房必须装上电梯，楼板的撞击声要≤65dB，卫生间门的宽度要≥0.9米！虽然有人说现在房子不缺，但真正缺…",
+        "behavior": "original_post",
+        "strategy": "problem_questioning",
+        "platform": "news_app",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "楼市新政 5月1日起实行 刚刚住建局发布国家标准《住宅项目规范》。今年5月1日起施行要求住宅项目建设应以安全、舒适、绿色、智慧为目标。规范规定了新建住宅多个维度指标，其中包含楼层高度不低于3米、4层以上开始要设置电梯等！…",
+        "behavior": "video_post",
+        "strategy": "other_unclear",
+        "platform": "video",
+        "source": "annotation/annotation_confirmed.csv"
+      },
+      {
+        "text": "太好了，为什么才这样做，因为质量问题，楼上楼下因为隔音问题打的不可开交，谁之过",
+        "behavior": "repost_with_comment",
+        "strategy": "personal_experience",
+        "platform": "news_app",
+        "source": "annotation/annotation_confirmed.csv"
+      }
+    ]
+  }
+}

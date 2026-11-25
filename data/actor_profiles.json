@@ -1,0 +1,50 @@
+[
+  {
+    "actor_type": "government",
+    "main_behavior": "policy_release",
+    "main_strategy": "policy_fact",
+    "preferred_platform": "weibo",
+    "preferred_target": "media",
+    "active_stage": "S2",
+    "policy_fact_focus": "F02",
+    "n_contents": 959,
+    "behavior_top3": "policy_release:0.397;original_post:0.199;direct_repost:0.114",
+    "strategy_top3": "policy_fact:0.837;exclude:0.114;general_statement:0.032"
+  },
+  {
+    "actor_type": "media",
+    "main_behavior": "news_report",
+    "main_strategy": "policy_fact",
+    "preferred_platform": "news_app",
+    "preferred_target": "media",
+    "active_stage": "S2",
+    "policy_fact_focus": "F03",
+    "n_contents": 2913,
+    "behavior_top3": "news_report:0.681;video_post:0.183;original_post:0.107",
+    "strategy_top3": "policy_fact:0.964;general_statement:0.014;exclude:0.009"
+  },
+  {
+    "actor_type": "professional",
+    "main_behavior": "original_post",
+    "main_strategy": "policy_fact",
+    "preferred_platform": "wechat",
+    "preferred_target": "media",
+    "active_stage": "S2",
+    "policy_fact_focus": "F02",
+    "n_contents": 687,
+    "behavior_top3": "original_post:0.332;news_report:0.231;video_post:0.125",
+    "strategy_top3": "policy_fact:0.700;exclude:0.099;general_statement:0.068"
+  },
+  {
+    "actor_type": "public",
+    "main_behavior": "original_post",
+    "main_strategy": "policy_fact",
+    "preferred_platform": "news_app",
+    "preferred_target": "public",
+    "active_stage": "S2",
+    "policy_fact_focus": "F02",
+    "n_contents": 20064,
+    "behavior_top3": "original_post:0.459;repost_with_comment:0.310;video_post:0.083",
+    "strategy_top3": "policy_fact:0.428;general_statement:0.242;interest_appeal:0.096"
+  }
+]

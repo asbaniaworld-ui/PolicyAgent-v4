@@ -1,0 +1,50 @@
+{
+  "timing": {
+    "real": {
+      "title": "真实节点介入",
+      "points": [
+        "对齐现实媒体进入/权威解释起点。",
+        "作为基线对照，用于观察改进空间。"
+      ]
+    },
+    "early": {
+      "title": "提前权威解释",
+      "points": [
+        "扩大政策事实进入公众视野的时间窗口。",
+        "主要提升爆发前覆盖（coverage_pre_burst）。"
+      ]
+    }
+  },
+  "collaboration": {
+    "reality": {
+      "title": "现实/偏单通道结构",
+      "points": [
+        "保持现实主体结构与互动倾向。",
+        "便于对照协同干预效果。"
+      ]
+    },
+    "synergy": {
+      "title": "多主体协同",
+      "points": [
+        "媒体提升扩散可达性。",
+        "专业/权威主体提升解释质量与事实送达。",
+        "主要提升事实准确率与主体多样性。"
+      ]
+    }
+  },
+  "s3_combo": {
+    "title": "为什么 S3 综合较好",
+    "points": [
+      "提前解释提升爆发前触达。",
+      "多主体协同提升事实准确。",
+      "二者叠加形成综合最优（来源 optimal_strategy_report）。"
+    ],
+    "forbidden": "不新增因果结论；仅复述既有报告。"
+  },
+  "sources": [
+    "model_enhancement_v1/actor_strategy_profile.xlsx",
+    "model_enhancement_v1/strategy_distribution.xlsx",
+    "agent_model_design_v1/interaction_probability.json",
+    "simulation_result_v1/optimal_strategy_report.md"
+  ]
+}

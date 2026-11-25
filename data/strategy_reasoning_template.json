@@ -1,0 +1,81 @@
+{
+  "version": "1.0",
+  "note": "问题 → 证据链 → 机制 → 推荐策略 的推理模板。展示层使用，不改模拟。",
+  "templates": {
+    "understanding_gap": {
+      "problem": "understanding_gap",
+      "problem_cn": "政策事实理解不足",
+      "evidence": [
+        "fact_accuracy",
+        "F05_low_mastery",
+        "Public_problem_questioning"
+      ],
+      "mechanism": "explanation_chain_insufficient",
+      "mechanism_cn": "信息已触达公众，但解释链不足导致复杂政策事实理解有限",
+      "strategy": "B_professional_chain",
+      "alt_strategies": ["C_public_response"],
+      "recommend_reasons": [
+        "当前问题属于理解环节，而非触达环节",
+        "Professional 主体能够补充复杂事实解释与转译",
+        "已有模拟结果（S2 vs S0）证明协同策略改善 fact_accuracy 与 actor_diversity"
+      ],
+      "chain_from": "Government → Media → Public",
+      "chain_to": "Government → Media → Professional → Public"
+    },
+    "synergy_gap": {
+      "problem": "synergy_gap",
+      "problem_cn": "主体协同不足",
+      "evidence": [
+        "actor_diversity",
+        "professional_missing_in_chain"
+      ],
+      "mechanism": "professional_node_missing",
+      "mechanism_cn": "传播链缺少专业解释节点，发布—转译—解释—反馈协同不完整",
+      "strategy": "B_professional_chain",
+      "alt_strategies": [],
+      "recommend_reasons": [
+        "主体功能未形成完整协同结构（发布/转译/解释/反馈）",
+        "增加 Professional 节点直接对应 actor_chain 变量",
+        "S2 正式结果表明协同可提升 actor_diversity 与 fact_accuracy"
+      ],
+      "chain_from": "Government → Media → Public",
+      "chain_to": "Government → Media → Professional → Public"
+    },
+    "timing_gap": {
+      "problem": "timing_gap",
+      "problem_cn": "传播效率不足（介入偏晚）",
+      "evidence": [
+        "diffusion_round",
+        "coverage_pre_burst",
+        "timing_real"
+      ],
+      "mechanism": "authority_window_late",
+      "mechanism_cn": "权威信息进入公众认知窗口偏晚，爆发前解释供给不足",
+      "strategy": "A_early_authority",
+      "alt_strategies": [],
+      "recommend_reasons": [
+        "当前问题属于信息进入窗口，而非解释链本身",
+        "调整 intervention_time 可提前权威信息进入传播链",
+        "S1 vs S0 正式结果表明提前解释改善 coverage_pre_burst"
+      ],
+      "chain_from": null,
+      "chain_to": null
+    },
+    "balanced": {
+      "problem": "balanced",
+      "problem_cn": "未检出尖锐主瓶颈",
+      "evidence": ["near_baseline_metrics"],
+      "mechanism": "near_baseline",
+      "mechanism_cn": "策略组合贴近基线，差异主要由既有结构决定",
+      "strategy": "B_professional_chain",
+      "alt_strategies": ["A_early_authority"],
+      "recommend_reasons": [
+        "未见单一尖锐瓶颈，优先选择可改善理解与协同的稳健方案",
+        "增强专业解释链覆盖理解与多样性两类指标",
+        "实施复杂度适中，便于在实验中心单变量对照"
+      ],
+      "chain_from": "Government → Media → Public",
+      "chain_to": "Government → Media → Professional → Public"
+    }
+  }
+}

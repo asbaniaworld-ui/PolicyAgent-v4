@@ -1,0 +1,74 @@
+{
+  "scenarios": {
+    "S0": {
+      "coverage": 1.0,
+      "coverage_pre_burst": 0.8947499999999999,
+      "fact_accuracy": 0.7891399999999998,
+      "misunderstanding_rate": 0.21086,
+      "actor_diversity": 0.5522603558660828,
+      "strategy_diversity": 1.378594085432673,
+      "feedback_rate": 0.8157087886934649,
+      "question_resolution_rate": 0.9772228746175062,
+      "peak_time": 90.0,
+      "diffusion_round": 65.97,
+      "actor_diversity_entropy": 0.5522603558660828,
+      "actor_diversity_norm": 0.3983716383437859
+    },
+    "S1": {
+      "coverage": 1.0,
+      "coverage_pre_burst": 0.95754,
+      "fact_accuracy": 0.796773,
+      "misunderstanding_rate": 0.203227,
+      "actor_diversity": 0.6040067602194126,
+      "strategy_diversity": 1.360935402195161,
+      "feedback_rate": 0.8160843281643593,
+      "question_resolution_rate": 0.976921962937023,
+      "peak_time": 89.997,
+      "diffusion_round": 65.035,
+      "actor_diversity_entropy": 0.6040067602194126,
+      "actor_diversity_norm": 0.4356987788159779
+    },
+    "S2": {
+      "coverage": 1.0,
+      "coverage_pre_burst": 0.89259,
+      "fact_accuracy": 0.8112469999999999,
+      "misunderstanding_rate": 0.188753,
+      "actor_diversity": 0.5829379748471009,
+      "strategy_diversity": 1.372485343347204,
+      "feedback_rate": 0.8161361409664136,
+      "question_resolution_rate": 0.977208928268403,
+      "peak_time": 89.99,
+      "diffusion_round": 64.114,
+      "actor_diversity_entropy": 0.5829379748471009,
+      "actor_diversity_norm": 0.4205008627288839
+    },
+    "S3": {
+      "coverage": 1.0,
+      "coverage_pre_burst": 0.9918449999999999,
+      "fact_accuracy": 0.829139,
+      "misunderstanding_rate": 0.170861,
+      "actor_diversity": 0.6460878768013458,
+      "strategy_diversity": 1.350917907530069,
+      "feedback_rate": 0.8161587133835665,
+      "question_resolution_rate": 0.9773059704188194,
+      "peak_time": 89.993,
+      "diffusion_round": 65.431,
+      "actor_diversity_entropy": 0.6460878768013458,
+      "actor_diversity_norm": 0.4660538879198906
+    }
+  },
+  "best_scenario": "S3",
+  "window": "Window B 2025-01-01 ~ 2025-04-30",
+  "source": "simulation_result_v1/metric_comparison.xlsx (read-only)",
+  "optimal_report_excerpt": "# 最优策略报告\n\n本模拟用于比较 Window B 下的传播方案，**不是**现实舆情预测。\n\n## 1. 提前权威解释是否有效？\n\n- 回答：**有效**（S1 vs S0）\n- coverage_pre_burst 增量：+0.0628\n- coverage_rate 增量：+0.0000\n- peak_time 增量：约 0（负值表示峰值更早）\n- policy_fact_accuracy 增量：+0.0076\n\n## 2. 多主体协同是否有效？\n\n- 回答：**有效**（S2 vs S0）\n- actor_diversity 增量：+0.0307\n- coverage_rate 增量：+0.0000\n- policy_fact_accuracy 增量：+0.0221\n- question_resolution_rate 增量：约 0\n\n## 3. 哪个情景综合最好？\n\n- 最优：**S3**（综合分 4.6921）\n- S3（提前 + 协同）：coverage=1.0000，pre_burst=0.9918，accuracy=0.8291，peak≈90.0\n\n## 4. 提升主要来自哪里？\n\n- 相对 S0 的主导提升通道：**覆盖（尤其爆发前触达）**\n- coverage（含 pre-burst）增量：+0.0971\n- 峰值提前（轮次）：约 0\n- 事实准确率增量：+0.0400\n- 公众回应增量：+0.0005\n\n## 指标快照（均值）\n\n| scenario | coverage | pre_burst | peak | actor_div | strat_div | fact_acc | misunderstand | feedback | resolve |\n|:--|--:|--:|--:|--:|--:|--:|--:|--:|--:|\n| S0 | 1.000 | 0.895 | 90.00 | 0.552 | 1.379 | 0.789 | 0.211 | 0.816 | 0.977 |\n| S1 | 1.000 | 0.958 | 90.00 | 0.604 | 1.361 | 0.797 | 0.203 | 0.816 | 0.977 |\n| S2 | 1.000 | 0.893 | 89.99 | 0.583 | 1.372 | 0.811 | 0.189 | 0.816 | 0.977 |\n| S3 | 1.000 | 0.992 | 89.99 | 0.646 | 1.351 | 0.829 | 0.171 | 0.816 | 0.977 |\n\n## 备注\n\n- 未使用禁用指标 raw_like_count\n- 参数来自 agent_model_design_v1 / agent_parameter_v1 / simulation_design_v1\n- 仅 Window B：2025-01-01 ~ 2025-04-30\n- coverage_pre_burst = S2 媒体爆发前（2025-03-30）触达率\n",
+  "rq": {
+    "RQ1": "现实传播机制分析",
+    "RQ2": "改变权威解释介入时机和主体功能分工后的传播效果变化"
+  },
+  "metric_notes": {
+    "actor_diversity": "Shannon entropy of message source agent types (nats); S0~0.552",
+    "actor_diversity_norm": "H/ln(4) for 0-1 display on radar only",
+    "diffusion_round": "rounds until coverage change <0.001 for 3 consecutive rounds; lower=faster stabilization",
+    "misunderstanding_rate": "exact complement 1-fact_accuracy; replaced in UI by diffusion_round"
+  }
+}

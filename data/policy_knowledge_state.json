@@ -1,0 +1,146 @@
+{
+  "definition": {
+    "value_range": "[0,1]",
+    "meaning": "empirical share of agent contents mentioning the fact (keyword match)",
+    "formula": "count(agent contents matching fact keywords) / count(agent contents)",
+    "source": "analysis_v1/policy_fact_base.json keywords + content_annotation_windowB.csv",
+    "note": "uses F01-F08 research fact base (mechanism analysis), not the shorter policy_facts.csv alias set"
+  },
+  "agents": {
+    "GovernmentAgent": {
+      "actor_type": "government",
+      "content_count": 959,
+      "fact_mastery_probability": {
+        "F01": 0.245047,
+        "F02": 0.335766,
+        "F03": 0.541189,
+        "F04": 0.009385,
+        "F05": 0.089677,
+        "F06": 0.275287,
+        "F07": 0.006257,
+        "F08": 0.234619
+      },
+      "init_rule": "initialize each fact slot with empirical mention share"
+    },
+    "MediaAgent": {
+      "actor_type": "media",
+      "content_count": 2913,
+      "fact_mastery_probability": {
+        "F01": 0.176107,
+        "F02": 0.282183,
+        "F03": 0.56162,
+        "F04": 0.014418,
+        "F05": 0.040165,
+        "F06": 0.120151,
+        "F07": 0.013732,
+        "F08": 0.088568
+      },
+      "init_rule": "initialize each fact slot with empirical mention share"
+    },
+    "ProfessionalAgent": {
+      "actor_type": "professional",
+      "content_count": 687,
+      "fact_mastery_probability": {
+        "F01": 0.225619,
+        "F02": 0.26492,
+        "F03": 0.346434,
+        "F04": 0.066958,
+        "F05": 0.13246,
+        "F06": 0.167394,
+        "F07": 0.078603,
+        "F08": 0.144105
+      },
+      "init_rule": "initialize each fact slot with empirical mention share"
+    },
+    "PublicAgent": {
+      "actor_type": "public",
+      "content_count": 20039,
+      "fact_mastery_probability": {
+        "F01": 0.357952,
+        "F02": 0.459903,
+        "F03": 0.590349,
+        "F04": 0.09207,
+        "F05": 0.115724,
+        "F06": 0.253506,
+        "F07": 0.168721,
+        "F08": 0.187784
+      },
+      "init_rule": "initialize each fact slot with empirical mention share"
+    }
+  },
+  "short_term_memory_schema": {
+    "source_agent": "media|government|professional|public",
+    "fact": "F01..F08 or null",
+    "strategy": "normalized_strategy label",
+    "stance": "stance_final if available",
+    "role": "last exposed message for next-step decision; capacity=1 latest"
+  },
+  "policy_fact_visibility": {
+    "F03": 0.5779,
+    "F02": 0.4283,
+    "F01": 0.3282,
+    "F06": 0.236,
+    "F08": 0.1765,
+    "F07": 0.1414,
+    "F05": 0.1061,
+    "F04": 0.0789
+  },
+  "misunderstanding_focus": [
+    {
+      "fact_id": "F03",
+      "fact_name": "层数条件",
+      "mention_share": 0.5779,
+      "typical_misread": "误以为仅高层才要求，或把条件理解为既有住宅强制加梯",
+      "focus": true
+    },
+    {
+      "fact_id": "F02",
+      "fact_name": "适用对象",
+      "mention_share": 0.4283,
+      "typical_misread": "误以为覆盖所有既有住宅/老旧小区",
+      "focus": true
+    },
+    {
+      "fact_id": "F01",
+      "fact_name": "实施时间",
+      "mention_share": 0.3282,
+      "typical_misread": "混淆发布日、实施日与地方加梯政策时间",
+      "focus": false
+    },
+    {
+      "fact_id": "F06",
+      "fact_name": "技术安全要求",
+      "mention_share": 0.236,
+      "typical_misread": "只谈有无电梯，忽视担架电梯/安全性能等要求",
+      "focus": false
+    },
+    {
+      "fact_id": "F08",
+      "fact_name": "政策目标",
+      "mention_share": 0.1765,
+      "typical_misread": "忽视适老化与安全目标，仅作房价/成本讨论",
+      "focus": false
+    },
+    {
+      "fact_id": "F07",
+      "fact_name": "费用责任",
+      "mention_share": 0.1414,
+      "typical_misread": "默认既有住宅加梯费用全由政府或开发商承担",
+      "focus": true
+    },
+    {
+      "fact_id": "F05",
+      "fact_name": "新建住宅与既有住宅区别",
+      "mention_share": 0.1061,
+      "typical_misread": "把新建配梯与老旧小区加梯混为一谈",
+      "focus": true
+    },
+    {
+      "fact_id": "F04",
+      "fact_name": "强制性",
+      "mention_share": 0.0789,
+      "typical_misread": "认为所有旧楼被一刀切强制立即加装",
+      "focus": true
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "version": "1.1",
+  "note": "仅开放策略层变量：介入时机、主体传播链、内容回应取向。不新增模型参数。A/B/C 为具体方案。",
+  "strategies": [
+    {
+      "id": "A_early_authority",
+      "name": "提前权威解释",
+      "variable": "intervention_time",
+      "variable_label": "信息进入时机",
+      "element": "intervention_time",
+      "ui_knobs": ["timing_key: early_7 / early_14"],
+      "parameter_change": {
+        "from": "介入时机：真实节点",
+        "to": "介入时机：提前14天"
+      },
+      "human_explanation": "更早让权威政策信息进入公众认知窗口，拉长爆发前的解释与扩散衔接时间。",
+      "problem": "信息进入公众认知窗口较晚，早期触达或趋稳偏慢",
+      "mechanism": "提前释放权威政策信息，扩大媒体爆发前的解释窗口",
+      "mechanism_from": "权威信息按现实时间线进入，爆发前窗口偏短。",
+      "mechanism_to": [
+        "提前权威发布",
+        "信息更早进入传播链",
+        "扩大爆发前触达",
+        "加快趋稳"
+      ],
+      "path": [
+        "提前解释",
+        "信息提前进入传播链",
+        "提高早期触达（coverage_pre_burst）",
+        "改善传播效率（diffusion_round↓）"
+      ],
+      "impact_metrics": ["coverage_pre_burst", "diffusion_round"],
+      "metrics": ["coverage_pre_burst", "diffusion_round"],
+      "evidence": "optimal_strategy_report：S1 vs S0，coverage_pre_burst +0.0628；正式结果只读对照",
+      "formal_ref": "S1 vs S0",
+      "formal_deltas": {
+        "coverage_pre_burst": 0.0628
+      },
+      "lab": {
+        "timing_key": "early_14",
+        "chain_key": "gov_media_public",
+        "goal_id": "faster_diffusion"
+      },
+      "expected": "提高爆发前触达，缩短解释—扩散衔接时间"
+    },
+    {
+      "id": "B_professional_chain",
+      "name": "增强专业解释链",
+      "variable": "actor_chain",
+      "variable_label": "主体协同结构",
+      "element": "actor_chain",
+      "ui_knobs": ["chain: Government → Media → Professional → Public"],
+      "parameter_change": {
+        "from": "Government → Media → Public",
+        "to": "Government → Media → Professional → Public"
+      },
+      "human_explanation": "在媒体扩散和公众接收之间增加专业解释主体，使复杂政策事实经过补充说明和转译，提高公众理解。",
+      "problem": "触达上升但事实理解跟不上，或主体协同不足",
+      "mechanism": "在媒体与公众之间增加 Professional 解释节点，补充复杂政策事实",
+      "mechanism_from": "信息发布后经媒体扩散，直接进入公众。",
+      "mechanism_to": [
+        "信息发布",
+        "媒体扩散",
+        "专业解释",
+        "公众理解"
+      ],
+      "path": [
+        "主体协同",
+        "增加解释节点",
+        "提高事实理解（fact_accuracy）",
+        "提高主体多样性（actor_diversity）"
+      ],
+      "impact_metrics": ["fact_accuracy", "actor_diversity"],
+      "metrics": ["fact_accuracy", "actor_diversity"],
+      "evidence": "optimal_strategy_report：S2 vs S0，fact_accuracy +0.0221，actor_diversity +0.0307",
+      "formal_ref": "S2 vs S0",
+      "formal_deltas": {
+        "fact_accuracy": 0.0221,
+        "actor_diversity": 0.0307
+      },
+      "lab": {
+        "timing_key": "real",
+        "chain_key": "gov_media_prof_public",
+        "goal_id": "improve_understanding"
+      },
+      "expected": "改善 F01–F08 中解释依赖型事实的掌握，均衡参与结构"
+    },
+    {
+      "id": "C_public_response",
+      "name": "公众问题回应机制",
+      "variable": "content_response",
+      "variable_label": "内容回应机制",
+      "element": "content_response",
+      "ui_knobs": ["goal: improve_understanding", "chain 含 Professional", "timing 前移"],
+      "parameter_change": {
+        "from": "未强化公众追问回应",
+        "to": "配合专业链提前回应费用/适用等疑问"
+      },
+      "human_explanation": "针对居民关心的费用责任、适用条件等问题，提前给出回应，减少误解和反复追问。",
+      "problem": "PublicAgent 多产生 problem_questioning / interest_appeal，误读与疑问仍多",
+      "mechanism": "在权威与专业节点提前回应费用、适用条件等公众关注点",
+      "mechanism_from": "公众以追问和利益诉求为主，回应供给不足。",
+      "mechanism_to": [
+        "识别公众追问",
+        "提前回应关注点",
+        "降低误解",
+        "支撑疑问消解"
+      ],
+      "path": [
+        "识别公众追问与利益诉求",
+        "提前回应关注点",
+        "降低 misunderstanding",
+        "支撑 question_resolution"
+      ],
+      "impact_metrics": ["fact_accuracy", "misunderstanding_rate", "question_resolution_rate"],
+      "metrics": ["fact_accuracy", "misunderstanding", "question_resolution"],
+      "evidence": "policy_knowledge_state.misunderstanding_focus；scenario_results 中 misunderstanding_rate = 1−fact_accuracy；Public 策略来自 behavior_decision_rules",
+      "formal_ref": "机制依据 + S2 理解改善通道",
+      "formal_deltas": {
+        "fact_accuracy": 0.0221
+      },
+      "lab": {
+        "timing_key": "early_14",
+        "chain_key": "gov_media_prof_public",
+        "goal_id": "improve_understanding"
+      },
+      "expected": "在触达已充分时，把增益转到理解与疑问消解"
+    }
+  ],
+  "boundaries": {
+    "can_optimize": [
+      "intervention_time（信息进入时机）",
+      "actor_chain（主体协同结构）",
+      "content_response（内容回应机制）"
+    ],
+    "cannot_fully_control": [
+      "网络结构",
+      "公众认知差异",
+      "信息同步接收限制"
+    ],
+    "disclaimer": "本平台做相对效果评估与机制诊断，不是精准舆情预测系统。"
+  }
+}

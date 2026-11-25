@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Streamlit / IDE
+.streamlit/secrets.toml
+.streamlit/cache/
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local / generated
+*.log
+.cache/
+.tmp/
+.pytest_cache/
+.mypy_cache/
+
+# Do not commit local secrets
+.env
+.env.*
+!.env.example

@@ -1,0 +1,69 @@
+{
+  "version": "1.0",
+  "note": "政策事实 → 传播主题 → 难度 → 优化方向。仅服务诊断解释层，不改 Agent / Simulation。",
+  "topics": {
+    "政策价值类": "政策目标与公共价值叙事",
+    "适用条件类": "适用范围、层数、强制与既有/新建边界",
+    "利益分配类": "费用责任与成本分摊",
+    "实施流程类": "时间节点与落地节奏",
+    "风险保障类": "技术安全与保障要求"
+  },
+  "facts": {
+    "F01": {
+      "name": "实施时间",
+      "topic": "实施流程类",
+      "difficulty": "medium",
+      "issue": "发布日、实施日与地方政策时间易混淆",
+      "recommended_strategy": "A_early_authority"
+    },
+    "F02": {
+      "name": "适用对象",
+      "topic": "适用条件类",
+      "difficulty": "high",
+      "issue": "易被理解为覆盖全部既有住宅",
+      "recommended_strategy": "B_professional_chain"
+    },
+    "F03": {
+      "name": "层数条件",
+      "topic": "适用条件类",
+      "difficulty": "high",
+      "issue": "层数门槛与强制范围易误读",
+      "recommended_strategy": "B_professional_chain"
+    },
+    "F04": {
+      "name": "强制性",
+      "topic": "适用条件类",
+      "difficulty": "high",
+      "issue": "强制/鼓励边界不清，易引发合规焦虑",
+      "recommended_strategy": "C_public_response"
+    },
+    "F05": {
+      "name": "新建与既有区别",
+      "topic": "适用条件类",
+      "difficulty": "high",
+      "issue": "新建与既有规则差异难转译，易与成本责任纠缠",
+      "recommended_strategy": "B_professional_chain"
+    },
+    "F06": {
+      "name": "技术安全要求",
+      "topic": "风险保障类",
+      "difficulty": "medium",
+      "issue": "只谈有无电梯，忽视安全性能要求",
+      "recommended_strategy": "B_professional_chain"
+    },
+    "F07": {
+      "name": "费用责任",
+      "topic": "利益分配类",
+      "difficulty": "high",
+      "issue": "公众关注成本与责任归属",
+      "recommended_strategy": "C_public_response"
+    },
+    "F08": {
+      "name": "政策目标",
+      "topic": "政策价值类",
+      "difficulty": "low",
+      "issue": "价值叙事易被利益争议淹没",
+      "recommended_strategy": "A_early_authority"
+    }
+  }
+}

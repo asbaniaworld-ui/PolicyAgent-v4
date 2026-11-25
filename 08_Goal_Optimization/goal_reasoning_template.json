@@ -1,0 +1,73 @@
+{
+  "version": "1.0",
+  "note": "目标 → 证据 → 机制 → 策略 推理模板。复用 04 策略库与问题编码。",
+  "templates": {
+    "understanding_goal": {
+      "goal": "提升政策理解",
+      "metric": "fact_accuracy",
+      "problem": "understanding_gap",
+      "mechanism": "explanation_chain_insufficient",
+      "strategy": "B_professional_chain",
+      "assist_strategies": ["C_public_response"],
+      "reasons": [
+        "目标对应 fact_accuracy（政策事实理解）",
+        "当前瓶颈多属理解不足而非触达不足",
+        "Professional 节点能够补充复杂事实解释"
+      ]
+    },
+    "speed_goal": {
+      "goal": "加快政策扩散",
+      "metric": "diffusion_round",
+      "secondary_metrics": ["coverage_pre_burst"],
+      "problem": "timing_gap",
+      "mechanism": "authority_window_late",
+      "strategy": "A_early_authority",
+      "assist_strategies": [],
+      "reasons": [
+        "目标对应 diffusion_round / coverage_pre_burst",
+        "瓶颈在权威信息进入公众认知窗口的时机",
+        "调整 intervention_time 可提前解释窗口（S1 vs S0）"
+      ]
+    },
+    "coverage_goal": {
+      "goal": "提高早期触达",
+      "metric": "coverage_pre_burst",
+      "problem": "timing_gap",
+      "mechanism": "authority_window_late",
+      "strategy": "A_early_authority",
+      "assist_strategies": ["B_professional_chain"],
+      "reasons": [
+        "目标对应 coverage_pre_burst",
+        "提前权威解释可扩大爆发前触达窗口",
+        "必要时辅以专业链巩固理解"
+      ]
+    },
+    "misunderstanding_goal": {
+      "goal": "减少居民疑问与误解",
+      "metric": "fact_accuracy",
+      "related": ["misunderstanding"],
+      "problem": "understanding_gap",
+      "mechanism": "explanation_chain_insufficient",
+      "strategy": "B_professional_chain",
+      "assist_strategies": ["C_public_response"],
+      "reasons": [
+        "降低误解依赖事实理解与问题回应",
+        "B 增强专业解释链提升 fact_accuracy",
+        "C 面向 interest_appeal / problem_questioning 做回应"
+      ]
+    },
+    "synergy_goal": {
+      "goal": "提升主体协同",
+      "metric": "actor_diversity",
+      "problem": "synergy_gap",
+      "mechanism": "professional_node_missing",
+      "strategy": "B_professional_chain",
+      "assist_strategies": [],
+      "reasons": [
+        "目标对应 actor_diversity",
+        "当前链可能缺少专业解释节点",
+        "S2 表明协同可改善多样性与理解"
+      ]
+    }
+  }
+}

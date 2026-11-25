@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "prompts": [
+    "想提高什么传播效果？",
+    "想解决什么传播问题？",
+    "面向什么公众问题？"
+  ],
+  "examples": [
+    {
+      "text": "希望让居民更理解加装电梯政策。",
+      "hint": "理解提升 → fact_accuracy"
+    },
+    {
+      "text": "希望政策信息更快传播。",
+      "hint": "传播速度 → diffusion_round / coverage_pre_burst"
+    },
+    {
+      "text": "希望减少公众误解。",
+      "hint": "问题回应 → fact_accuracy + 内容回应"
+    },
+    {
+      "text": "希望更多人在讨论爆发前就知道政策。",
+      "hint": "早期触达 → coverage_pre_burst"
+    },
+    {
+      "text": "希望政府、媒体和专业人士一起解释清楚。",
+      "hint": "主体协同 → actor_diversity"
+    }
+  ]
+}

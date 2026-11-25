@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "note": "技术参数 → 用户可理解语言。页面默认展示 human，技术细节折叠。",
+  "explanations": {
+    "intervention_time_early": {
+      "technical": "timing_key: real → early_14",
+      "human": "把权威政策信息的进入时间提前，让公众在讨论爆发前就接触正式解释"
+    },
+    "intervention_time_real": {
+      "technical": "timing_key: real",
+      "human": "权威信息进入时间贴近现实案例节点"
+    },
+    "actor_chain_professional": {
+      "technical": "add Professional node to chain",
+      "human": "增加专业主体承担政策解释和复杂事实转译"
+    },
+    "actor_chain_short": {
+      "technical": "Government → Media → Public",
+      "human": "政府发布、媒体扩散后直接进入公众，专业解释环节较弱"
+    },
+    "content_response_active": {
+      "technical": "content_response orientation + Professional chain",
+      "human": "针对费用、适用条件等公众常问问题，提前给出回应与澄清"
+    }
+  }
+}

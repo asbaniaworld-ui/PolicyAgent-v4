@@ -1,0 +1,63 @@
+{
+  "version": "1.0",
+  "source": [
+    "scenario_results.json ← metric_comparison.xlsx",
+    "policy_knowledge_state.json",
+    "behavior_decision_rules.json (PublicAgent strategies)",
+    "optimal_strategy_report.md excerpt"
+  ],
+  "cases": [
+    {
+      "id": "reach_high_understand_low",
+      "label": "覆盖高，但理解提升有限",
+      "trigger": {
+        "coverage_pre_burst_min": 0.92,
+        "fact_accuracy_delta_max": 0.025
+      },
+      "problem": "信息触达充分，政策事实理解仍偏弱",
+      "mechanism": "权威/媒体信息已进入传播链，但复杂事实解释节点不足；公众侧多以利益诉求与问题追问回应。",
+      "evidence": [
+        "coverage_pre_burst 相对基线改善或处于高位",
+        "fact_accuracy 相对基线增益有限",
+        "policy_knowledge_state：Public 对 F04/F05/F07 等事实掌握偏低",
+        "PublicAgent 常见策略：interest_appeal / problem_questioning"
+      ],
+      "bottleneck": "信息理解环节（非触达环节）",
+      "strategy_ids": ["B_professional_chain", "C_public_response"]
+    },
+    {
+      "id": "low_actor_synergy",
+      "label": "主体协同不足",
+      "trigger": {
+        "actor_diversity_max": 0.58,
+        "require_no_professional_in_chain": true
+      },
+      "problem": "传播链缺少中间解释主体，参与结构偏集中",
+      "mechanism": "Government→Media→Public 短链下，专业澄清节点不足，消息来源类型熵偏低。",
+      "evidence": [
+        "actor_diversity 相对基线提升有限或仍偏低",
+        "当前链未包含 Professional",
+        "S2/S3 正式结果：引入协同可提升 actor_diversity 与 fact_accuracy"
+      ],
+      "bottleneck": "主体功能分工 / 解释链",
+      "strategy_ids": ["B_professional_chain"]
+    },
+    {
+      "id": "slow_diffusion",
+      "label": "传播速度不足",
+      "trigger": {
+        "diffusion_round_delta_min": 0.0,
+        "timing_is_real": true
+      },
+      "problem": "覆盖趋稳所需轮次未明显缩短",
+      "mechanism": "权威信息进入传播链偏晚，爆发前认知窗口较短，扩散衔接偏慢。",
+      "evidence": [
+        "diffusion_round 未低于 Reality（越低越好）",
+        "介入时机贴近 real",
+        "S1 正式结果：提前解释可改善 coverage_pre_burst"
+      ],
+      "bottleneck": "介入时机 / 早期窗口",
+      "strategy_ids": ["A_early_authority"]
+    }
+  ]
+}
